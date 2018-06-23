@@ -114,10 +114,6 @@ JkWorkersFile conf.d/worker.properties
 JkMount /student local
 JkMount /student/* local
 
-# Add following lines only if you want to redirect, Also change the IP address of URL.
-RewriteEngine On
-RewriteRule ^/$ http://35.231.223.147/student
-
 ```
 
 Create worker.properties file
